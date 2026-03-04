@@ -6,6 +6,12 @@ import os
 import asyncio
 from datetime import datetime
 from keep_alive import keep_alive
+from dotenv import load_dotenv
+
+load_dotenv()
+
+
+
 
 keep_alive()
 
